@@ -1,0 +1,4 @@
+lib/app/modules/login/components/password_field/password_field_widget.dart
+test/app/modules/login/components/password_field/password_field_widget_test.dart
+lib/app/modules/login/components/password_field/password_field_controller.dart
+test/app/modules/login/components/password_field/password_field_controller_test.dart
