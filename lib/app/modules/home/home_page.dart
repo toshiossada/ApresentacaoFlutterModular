@@ -25,9 +25,10 @@ class _HomePageState extends ModularState<HomePage, HomeController> {
             leading: Text('#${controller.list[index].id}'),
             title: Text(controller.list[index].descricao),
             onTap: () {
-              Modular.to
-                  .pushNamed('/home/details/${controller.list[index].id}');
-              // Modular.link.pushNamed('/details/${controller.list[index].id}');
+              // Modular.to
+              //     .pushNamed('/home/details/${controller.list[index].id}');
+
+              Modular.link.pushNamed('/details/${controller.list[index].id}');
             },
           );
         },
