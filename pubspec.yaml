@@ -11,16 +11,17 @@ environment:
 dependencies:
   font_awesome_flutter: ^8.8.1
   dio: ^3.0.9
-  flutter_mobx: ^1.1.0
+  flutter_mobx: ^1.1.0+1
   mobx: ^1.2.0
-  flutter_modular: ^1.2.3
+  flutter_modular: ^1.3.2
   flutter:
     sdk: flutter
 
 dev_dependencies:
+  modular_codegen: ^1.0.1+3
   mockito: ^4.1.1
-  mobx_codegen: ^1.1.0
-  build_runner: ^1.10.0
+  mobx_codegen: ^1.1.0+1
+  build_runner: ^1.10.1
   flutter_test:
     sdk: flutter
 

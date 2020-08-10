@@ -10,9 +10,12 @@ import 'services/interfaces/item_service_interface.dart';
 class HomeModule extends ChildModule {
   @override
   List<Bind> get binds => [
-        Bind((i) => DetailsController()),
-        Bind<IItemService>((i) => ItemService()),
-        Bind((i) => HomeController(i.get<IItemService>())),
+        // Bind((i) => DetailsController()),
+        // Bind<IItemService>((i) => ItemService()),
+        // Bind((i) => HomeController(i.get<IItemService>())),
+        $HomeController,
+        $ItemService,
+        $DetailsController,
       ];
 
   @override
