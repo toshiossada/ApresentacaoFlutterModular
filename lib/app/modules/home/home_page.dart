@@ -20,6 +20,7 @@ class _HomePageState extends ModularState<HomePage, HomeController> {
         title: Text(widget.title),
       ),
       body: ListView.builder(
+        itemCount: controller.list.length,
         itemBuilder: (context, index) {
           return ListTile(
             leading: Text('#${controller.list[index].id}'),
